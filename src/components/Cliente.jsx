@@ -10,7 +10,9 @@ const Cliente = ( { cliente, handleEliminarCliente } ) => {
         <td className="p-3">{nombre}</td>
         <td className="p-3">
             <p><span className="text-gray-800 font-bold uppercase">Email: </span>{email}</p>
-            <p><span className="text-gray-800 font-bold uppercase">Teléfono: </span>{telefono}</p>
+            {telefono && (
+                <p><span className="text-gray-800 font-bold uppercase">Teléfono: </span>{telefono}</p>
+            )}
         </td>
         <td className="p-3">{empresa}</td>
         <td className="p-3 flex gap-3 flex-col xl:flex-row">
