@@ -1,0 +1,20 @@
+{
+  "clientes": [
+    {
+      "nombre": "Adidas",
+      "empresa": "Adidas SRL",
+      "email": "adidas@adidas.com",
+      "telefono": "1234567",
+      "notas": "Enviar pedido requerido en la última llamada telefónica",
+      "id": 1
+    },
+    {
+      "nombre": "Nike",
+      "empresa": "Nike SRL",
+      "email": "nike@nike.com",
+      "telefono": "",
+      "notas": "",
+      "id": 2
+    }
+  ]
+}
